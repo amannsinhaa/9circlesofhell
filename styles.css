@@ -1,143 +1,142 @@
+@import url("https://fonts.cdnfonts.com/css/luminari");
 
-    
-      html,
+html,
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-      body {
-        background-color: rgb(0, 0, 0);
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-      .parallax {
-        height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
+.first {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/hellopen.jpg");
+}
 
-      .first {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/hellopen.jpg");
-      }
+.second {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/Limbo.png");
+  height: 100%;
+}
 
-      .second {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/Limbo.png");
-        height: 100%;
-      }
+.three {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/lust.jpg");
+  height: 100%;
+}
 
-      .three {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/lust.jpg");
-        height: 100%;
-      }
+.four {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/Gluttony.jpg");
+  height: 100%;
+}
 
-      .four {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/Gluttony.jpg");
-        height: 100%;
-      }
+.five {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/greed1.webp");
+  height: 100%;
+}
 
-      .five {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/greed1.webp");
-        height: 100%;
-      }
+.six {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/wrath.jpg");
+  height: 100%;
+}
 
-      .six {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/wrath.jpg");
-        height: 100%;
-      }
+.seven {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/heresy.jpg");
+  height: 100%;
+}
 
-      .seven {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/heresy.jpg");
-        height: 100%;
-      }
+.eight {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/violence.jpg");
+  height: 100%;
+}
 
-      .eight {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/violence.jpg");
-        height: 100%;
-      }
+.nine {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/fraud.jpg");
+  height: 100%;
+}
 
-      .nine {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/fraud.jpg");
-        height: 100%;
-      }
+.ten {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/treachery.jpg");
+  height: 100%;
+}
 
-      .ten {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/treachery.jpg");
-        height: 100%;
-      }
+.eleven {
+  background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/fin.jpg");
+  height: 100%;
+}
+.right-heading {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-family: "Luminari";
+  color: white;
+  text-align: right;
+}
 
-      .eleven {
-        background-image: url("./ParallaxWebsite-master/ParallaxWebsite-master/img/fin.jpg");
-        height: 100%;
-      }
-      .right-heading {
-        position: absolute;
-        top: 50%;
-        left: 5%;
-        font-family: Luminari;
-        color: white;
-        text-align: right;
-      }
+.right-heading h2 {
+  font-weight: 400;
+}
 
-      .right-heading h2 {
-        font-weight: 400;
-      }
+.right-heading h1 {
+  font-size: 400%;
+  line-height: 30%;
+  font-weight: 400;
+}
 
-      .right-heading h1 {
-        font-size: 400%;
-        line-height: 30%;
-        font-weight: 400;
-      }
+.band h1 {
+  font-family: "luminari";
+  color: aliceblue;
+  font-weight: 450;
+  text-align: center;
+  font-size: 225%;
+  border-radius: 15px;
+  /* margin: 15px; */
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.047);
+  line-height: 19px;
+}
 
-      .band h1 {
-        font-family: Luminari;
-        color: aliceblue;
-        font-weight: 450;
-        text-align: center;
-        font-size: 225%;
-        border-radius: 15px;
-        /* margin: 15px; */
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.047);
-        line-height: 19px;
-      }
+.band h2 {
+  font-family: "luminari";
+  color: rgb(211, 206, 206);
+  font-weight: 300;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 19px;
+}
 
-      .band h2 {
-        font-family: Luminari;
-        color: rgb(211, 206, 206);
-        font-weight: 300;
-        border-radius: 15px;
-        text-align: center;
-        line-height: 19px;
-      }
+.sub-caption {
+  background: rgba(40, 40, 40, 0.651);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
+  width: 50%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 140%;
+  font-weight: 400;
+  border-radius: 50px;
 
-      .sub-caption {
-        background: rgba(40, 40, 40, 0.651);
-        font-family: Luminari;
-        color: aliceblue;
-        width: 50%;
-        padding-top: 27px;
-        padding-bottom: 27px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 140%;
-        font-weight: 400;
-        border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
 
-        position: absolute;
-        top: 50%;
-        right: 5%;
-      }
+.left {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
 
-      .left {
-        position: absolute;
-        top: 50%;
-        left: 5%;
-      }
-
-      .center {
-        position: absolute;
-        top: 50%;
-        left: 25%;
-      }
+.center {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
